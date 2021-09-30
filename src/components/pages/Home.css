@@ -1,0 +1,142 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 70vh;
+    width: 100%;
+}
+
+.home-surat {
+    width: 100%;
+}
+
+.home-div {
+    height: 75vh;
+    width: 100%;
+    background-image: url("../img/wal.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-div3 {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-cep {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-sag {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home-sagcep {
+    display: flex;
+}
+
+.home-imgcep {
+    margin-top: 18%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    width: 90%;
+    height: 50%;
+    margin-right: 2%;
+    border-radius: 15px;
+}
+
+.home-imgsag {
+    margin-top: 50%;
+    margin-bottom: 10%;
+    margin-left: 2%;
+    width: 90%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+.home-h22 {
+    color: #fff;
+    font-size: 60px;
+    margin: 10%;
+}
+
+.home-h1 {
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #333333;
+    font-family: "Monaco", monospace;
+}
+.home-h2 {
+    font-size: 35px;
+    color: #9f0500;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Monaco", monospace;
+}
+.home-h222 {
+    color: hsl(0, 0%, 33%);
+    font-size: 35px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Monaco", monospace;
+}
+.home-h3 {
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    font-family: "Monaco", monospace;
+}
+
+.home-h13 {
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .home-container {
+        grid-template-columns: 1fr
+    }
+    .home-h1 {
+        font-size: 30px;
+    }
+    .home-h22 {
+        font-size: 50px;
+    }
+    .home-div3 {
+        margin: 3%;
+        height: 35vh;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .home-imgcep {
+        height: 50%;
+    }
+
+    .home-imgsag {
+        height: 50%;
+    }
+    .home-h1 {
+        font-size: 20px;
+    }
+    .home-h2 {
+        font-size: 20px;
+    }
+    .home-h3 {
+        font-size: 17px;
+    }
+    .home-h22 {
+        font-size: 25px;
+    }
+}

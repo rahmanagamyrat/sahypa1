@@ -1,0 +1,113 @@
+.salamm {
+    min-height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url("../img/sur.jpg");
+}
+
+.salamm-container {
+    min-height: 450px;
+    margin: 10%;
+    background-color: #fff;
+    width: 80%;
+    opacity:0.8;
+}
+
+.salamm-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.salamm-cep {
+    display: flex;
+    color: #131313;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+    min-height: 450px;
+}
+
+.salamm-sag {
+    display: flex;
+    color: #131313;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+    min-height: 450px;
+}
+
+.salamm-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.salamm-link {
+    font-size: 35px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.salamm-h1 {
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.salamm-iconn {
+    font-size: 20px;
+}
+
+.salamm-h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.salamm-h11 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.salamm-mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .salamm-col {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 296px) {
+    .salamm-h2 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .salamm-link {
+        font-size: 25px;
+    }
+}

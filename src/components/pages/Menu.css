@@ -1,0 +1,116 @@
+.menu {
+    min-height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.menu-container {
+    min-height: 40vh;
+    margin: 5%;
+    background-color: #f5f5f5;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-cep {
+    display: flex;
+    color: #131313;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6%;
+    min-height: 80%;
+}
+
+.image {
+    height: fit-content;
+    width: 100%;
+}
+
+.menu-sag {
+    display: flex;
+    color: #131313;
+    flex-direction: column;
+    padding: 0;
+    height: 100%;
+    min-height: 200px;
+}
+
+.menu-bas {
+    font-size: 40px;
+    font-family: "Lucida Console", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+
+.menu-bahadiv {
+    display: flex;
+    margin: 2px;
+    flex-direction: row;
+}
+
+.menu-bahasy {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5px
+}
+
+.menu-bahasym {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Lucida Handwriting', Cursive;
+
+}
+
+.menu-ady {
+    font-size: 20px;
+    width: 70%;
+}
+.menu-h44 {
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+.menu-adym {
+    font-size: 22px;
+    margin: 5px;
+    font-family: 'Lucida Handwriting', Cursive;
+    color: #8b0000;
+}
+
+@media screen and (max-width: 800px) {
+    .menu-col {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .menu-adym {
+        font-size: 17px;
+    }
+    .menu-h44 {
+        font-size: 10px;
+    }
+    .menu-bahasym {
+        font-size: 16px;
+    }
+}

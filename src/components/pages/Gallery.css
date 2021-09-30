@@ -1,0 +1,45 @@
+.container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.image-card {
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.image {
+    width: 100%;
+}
+
+.tags {
+    text-align: center;
+    padding: 15px ;
+}
+
+.tag {
+    outline: none;
+    border: none;
+    margin: 0px 10px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.tactive {
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    }
+}
